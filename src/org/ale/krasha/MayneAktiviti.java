@@ -33,8 +33,8 @@ public class MayneAktiviti extends ListActivity {
 				nulla = nulla + nulla;
 				break;
 			case 2:
-		        Intent notfound = new Intent(MayneAktiviti.this, NotFound.class); 
-		        startActivity(notfound);
+				Intent notfound = new Intent(MayneAktiviti.this, NotFound.class); 
+				startActivity(notfound);
 				break;
 			case 3:
 				String poo = "poo";
