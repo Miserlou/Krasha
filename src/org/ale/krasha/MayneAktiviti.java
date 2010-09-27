@@ -25,8 +25,8 @@ public class MayneAktiviti extends ListActivity {
 			
 			switch(position){
 			case 0:
-		        Intent thissa = new Intent(MayneAktiviti.this,StackOverflow.class); 
-		        startActivity(thissa);
+				Intent thissa = new Intent(MayneAktiviti.this,StackOverflow.class); 
+				startActivity(thissa);
 				break;
 			case 1:
 				Integer nulla = null;
