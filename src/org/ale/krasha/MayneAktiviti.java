@@ -37,14 +37,16 @@ public class MayneAktiviti extends ListActivity {
 		        startActivity(notfound);
 				break;
 			case 3:
-		        String poo = "poo";
-		        poo = poo.substring(4, 5);
+				String poo = "poo";
+				poo = poo.substring(4, 5);
+				break;
 			case 4:
 				int[] asdf = {1, 2, 3};
-		        asdf[5] = asdf[5];
+				asdf[5] = asdf[5];
+				break;
 			case 5:
-		        Intent supernot = new Intent(MayneAktiviti.this, SuperNotCalled.class); 
-		        startActivity(supernot);
+				Intent supernot = new Intent(MayneAktiviti.this, SuperNotCalled.class); 
+				startActivity(supernot);
 				break;
 			}
 			
